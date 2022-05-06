@@ -49,7 +49,7 @@ a {
   border-radius: 50%;
 }
 
-#sm , .hab, #td, #ex {
+#sm , .hab, #td {
   margin: 20px;
   margin-top: 40px;
   text-align: center;
@@ -58,11 +58,13 @@ a {
 
 .desc {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
 }
 
 .list-hab {
   text-align: center;
   margin-top: 20px;
+  font-family: 'PT Serif', serif;;
 }
 
 .itens-hab {
@@ -71,8 +73,14 @@ a {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: #111;
   margin: 50px;
+}
+
+#ex {
+  font-size: 18px;
 }
 
 .footer-link {
