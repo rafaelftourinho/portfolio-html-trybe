@@ -3,55 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Portfólio Web</title>
 </head>
 <body>
-  
-  <h1><a href="#foto">Rafael França Tourinho</a></h1>
-  
-  <h2>Índice</h2>
-  <p><a href="#sm"><strong>Sobre mim</strong></a></p>
-  <p><a href="#hab"><strong>Lista de habilidades</strong></a></p>
-  <p><a href="#td"><strong>Visito todo dia</strong></a></p>
-  <p><a href="#ex"><strong>Seção Extra</strong></a></p>
-  <br><br>
+<!-- CABEÇALHO -->
+  <div class="cabecalho">
+    <div class="cabecalho-title">
+      <h1 class="ajuste-posicao"><a href="#foto">Rafael França Tourinho</a></h1>
+      <h2 class="ajuste-posicao">Portfólio Web</h2>
+    </div>
+    <div class="cabecalho-menu">
+      <p><a class="indice" href="#sm"><strong>Sobre mim</strong></a></p>
+      <p><a class="indice" href="#hab"><strong>Lista de habilidades</strong></a></p>
+      <p><a class="indice" href="#td"><strong>Visito todo dia</strong></a></p>
+      <p><a class="indice" href="#ex"><strong>Seção Extra</strong></a></p>
+  </div>
+</div>
+<br><br>
 
+<!-- FOTO -->
+  <img id="foto" src="./img/Eu 2.jpeg" alt="Foto Rafael França">
 
-
-  <img id="foto" src="./img/Eu 2.jpeg" alt="Foto Rafael França" height="300px" height="300px">
-
+<!-- DESCRIÇÃO -->
   <h2 id="sm">Sobre mim:</h2>
-  <p>Eu sou formado em licenciatura em Química pela UFRJ, brasileiro, natural do Rio de Janeiro. Sou uma pessoa apaixonada por tecnlogia e games de forma geral, acredito que o conhecimento foi feito para ser compartilhado e vivo para isso. A maior paixão em games está no mundo dos RPG's, onde se perde por centenas de horas a fio explorando as histórias e universos únicos em que teve prazer de conhecer.</p>
+  <p class="desc">Eu sou formado em licenciatura em Química pela UFRJ, brasileiro, natural do Rio de Janeiro. Sou uma pessoa apaixonada por tecnlogia e games de forma geral, acredito que o conhecimento foi feito para ser compartilhado e vivo para isso. A maior paixão em games está no mundo dos RPG's, onde se perde por centenas de horas a fio explorando as histórias e universos únicos em que teve prazer de conhecer.</p>
 
-  <h2 id="hab">Lista de habilidades:</h2>
-  <ul>
-    <li><em>Comunicativo</em></li>
-    <li><em>Proativo</em></li>
-    <li><em><strong>Educador</strong></em></li>
-    <li><em>Resiliente</em></li>
-    <li><em>Facilidade em aprender</em></li>
-    <li><em><strong>Determinado</em></strong></li>
-    <li><em>Leal</em></li>
-    <li><em>Honesto</em></li>
-    <li><em>Íntegro</em></li>
+<!-- HABILIDADES -->
+  <h2 class="hab">Lista de habilidades:</h2>
+  <ul class="list-hab">
+    <li class="itens-hab"><em>Comunicativo</em></li>
+    <li class="itens-hab"><em>Proativo</em></li>
+    <li class="itens-hab"><em><strong>Educador</strong></em></li>
+    <li class="itens-hab"><em>Resiliente</em></li>
+    <li class="itens-hab"><em>Facilidade em aprender</em></li>
+    <li class="itens-hab"><em><strong>Determinado</em></strong></li>
+    <li class="itens-hab"><em>Leal</em></li>
+    <li class="itens-hab"><em>Honesto</em></li>
+    <li class="itens-hab"><em>Íntegro</em></li>
   </ul>
-  <h2>Hard Skills</h2>
-  <ul>
-    <li><em>HTML</em></li>
-    <li><em>CSS</em></li>
-    <li><em>JavaScript</em></li>
-    <li><em>Git</em></li>
-    <li><em>MySQL</em></li>
+  <h2 class="hab">Hard Skills</h2>
+  <ul class="list-hab">
+    <li class="itens-hab"><em>HTML</em></li>
+    <li class="itens-hab"><em>CSS</em></li>
+    <li class="itens-hab"><em>JavaScript</em></li>
+    <li class="itens-hab"><em>Git</em></li>
+    <li class="itens-hab"><em>MySQL</em></li>
   </ul>
 
+<!-- CURIOSIDADE -->
   <h2 id="td">Visito todo dia:</h2>
   <p><a href="https://www.globoesporte.com" target="_blank"> Esportes</a></p>
   <p><a href="https://www.globo.com" target="_blank"> Notícias</a></p>
 
-  <h2 id="ex">Seção Extra</h2>
-  <p>Caso tenha curiosidade, visite as minhas redes e veja alguns <strong><em>projetos e artigos que já produzi:</strong></em></p>
-  <p><a href="https://www.linkedin.com/in/rafael-franca-tourinho/" target="_blank"> Linkedin</a></p>
-  <p><a href="https://github.com/rafaelftourinho" target="_blank"> GitHub</a></p>
-
+<!-- RODAPÉ -->
+  <footer>
+    <p>Caso tenha curiosidade, visite as minhas redes e veja alguns <strong><em>projetos e artigos que já produzi:</strong></em></p>
+    <p class="footer-link"><a href="https://www.linkedin.com/in/rafael-franca-tourinho/" target="_blank"> Linkedin</a></p>
+    <p class="footer-link"><a href="https://github.com/rafaelftourinho" target="_blank"> GitHub</a></p>
+  </footer>
 </body>
 </html>
