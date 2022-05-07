@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -46,7 +47,7 @@ a {
   margin-right:auto;
   height: 300px;
   width: 300px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 #sm , .hab, #td {
@@ -64,7 +65,9 @@ a {
 .list-hab {
   text-align: center;
   margin-top: 20px;
-  font-family: 'PT Serif', serif;;
+  font-family: 'PT Serif', serif;
+  list-style-type: none;
+  list-style-position: inside ;
 }
 
 .itens-hab {
@@ -91,4 +94,9 @@ footer {
   color: #ddd;
   font-weight: bold;
   font-size: 20px;
+}
+
+.font-aw {
+  width: 50px;
+  height: 50px;
 }
