@@ -50,6 +50,27 @@ a {
   border-radius: 100%;
 }
 
+.flex-sec {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  background-color: red;
+}
+
+.flex-desc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.flex-desc1 {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+
 #sm , .hab, #td {
   margin: 20px;
   margin-top: 40px;
