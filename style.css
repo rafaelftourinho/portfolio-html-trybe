@@ -20,6 +20,14 @@ body {
   margin: 20px;
 }
 
+#foto {
+  margin-top: 10px;
+}
+
+.foto-hov:hover {
+  color: #39aae1;
+}
+
 .indice-title {
   margin: 20px;
   text-align: center;
@@ -72,7 +80,6 @@ a {
 
 
 #sm, .hab, #td {
-  margin: 20px;
   margin-top: 40px;
   text-align: center;
   font-size: 30px;
