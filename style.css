@@ -25,13 +25,13 @@ body {
   text-align: center;
 
 }
-p .indice {
+p, .indice {
   margin: 20px;
   text-align: center;
 }
 
 .indice:hover {
-  color: #ddd;
+  color: #39aae1;
   font-weight: bold;
   font-size: 20px;
 }
@@ -71,7 +71,7 @@ a {
 }
 
 
-#sm , .hab, #td {
+#sm, .hab, #td {
   margin: 20px;
   margin-top: 40px;
   text-align: center;
@@ -89,6 +89,7 @@ a {
   font-family: 'PT Serif', serif;
   list-style-type: none;
   list-style-position: inside ;
+  font-size: 18px;
 }
 
 .itens-hab {
@@ -100,15 +101,12 @@ a {
   display: block;
 }
 
-.visitas {
-  width: 50%;
-}
-
 footer {
   display: flex;
   flex-direction: column;
   background-color: #111;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 #ex {
@@ -117,12 +115,6 @@ footer {
 
 .footer-link {
   font-size: 17px;
-}
-
-.footer-link:hover {
-  color: #ddd;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .font-aw {
